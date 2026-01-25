@@ -3,6 +3,7 @@ import chalk from "chalk"
 import logSymbols from "log-symbols"
 import path from "node:path"
 import stripAnsi from "strip-ansi"
+
 export function printBox(result: any, durationMs: number) {
 
   const duration = (durationMs / 1000).toFixed(2) + "s"
