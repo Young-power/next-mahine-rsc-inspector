@@ -1,7 +1,8 @@
 # 🚀 next-mahine-rsc-inspector
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/Young-power/next-mahine-rsc-inspector/main/assets/logo.png" width="200" />
+<img src="https://raw.githubusercontent.com/Young-power/next-mahine-rsc-inspector/main/public/assets/logo.png
+" width="200" />
 </p>
 
 
