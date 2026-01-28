@@ -8,7 +8,7 @@ export async function scanProject(root: string) {
   const projectName = path.basename(root)
 
   const appDir1 = path.join(root, "app")
-  const appDir2 = path.join(root, "src", "app")
+  const appDir2 = path.join(root, "src")
 
   let appDir: string | null = null
 
