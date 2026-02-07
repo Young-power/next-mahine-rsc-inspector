@@ -1,6 +1,6 @@
 {
   "name": "next-mahine-rsc-inspector",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Inspect and analyze Next.js React Server Components architecture",
   "keywords": [
     "nextjs",
