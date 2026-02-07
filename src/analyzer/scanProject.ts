@@ -3,6 +3,7 @@ import path from "path"
 import fs from "fs"
 import { analyzeFile } from "./analyzeFile"
 import { computeStats } from "./stats"
+import { computeFolderStats } from "./statsFolder"
 
 export async function scanProject(root: string) {
   const projectName = path.basename(root)
@@ -26,11 +27,13 @@ export async function scanProject(root: string) {
 
   const results = files.map(file => analyzeFile(file))
   const stats = computeStats(results)
-
+   const folders = computeFolderStats(results, appDir);
+   //console.log(folders);
   return {
     projectName,
     projectRoot: root,
     appDir,
+    folders,
     total: stats.total,
     client: stats.client,
     server: stats.server,

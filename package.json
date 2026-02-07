@@ -9,7 +9,11 @@
     "cli",
     "analysis",
     "architecture",
-    "inspector"
+    "inspector",
+    "react-server-components",
+    "debug",
+    "developer-tools",
+    "nextjs-inspector"
   ],
   "author": "Mahaman Mahine Kamagaté",
   "license": "MIT",
