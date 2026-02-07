@@ -34,6 +34,18 @@ Whether you're auditing a codebase, optimizing performance, or ensuring best pra
 
 ## ✨ Features
 
+📊 Client vs Server component count
+Instantly see how many components run on the client and how many run on the server.
+
+🧠 RSC architecture insights
+Understand how your App Router is structured and how components interact.
+
+⚡ Performance-oriented analysis
+Identify patterns that may impact bundle size or rendering performance.
+
+🧩 Component distribution overview
+Visualize how components are spread across your application.
+
 ### 📊 **Comprehensive Analysis**
 - ✅ **Automatic detection** of `app/` or `src/` directories
 - ✅ **Accurate classification** of Server vs Client Components
@@ -52,6 +64,9 @@ Whether you're auditing a codebase, optimizing performance, or ensuring best pra
 - ✅ **Fast execution** with minimal dependencies
 - ✅ **Cross-platform** support (Windows, macOS, Linux)
 
+
+exemple:
+<p align="center"> <img src="https://raw.githubusercontent.com/Young-power/next-mahine-rsc-inspector/main/public/assets/output.png" width="800" alt="CLI Output Example" /> <br> <em>Interactive CLI with progress visualization</em> </p>
 ---
 
 ## 📦 Quick Start
@@ -87,7 +102,7 @@ npx next-mahine-rsc-inspector --by-folder
 Output Examples
 Visual Report
 
-<p align="center"> <img src="https://raw.githubusercontent.com/Young-power/next-mahine-rsc-inspector/main/public/assets/output.png" width="800" alt="CLI Output Example" /> <br> <em>Interactive CLI with progress visualization</em> </p>
+
 
 {
   "projectName": "my-nextjs-app",
